@@ -4,8 +4,6 @@ Please use link to the pulished notebook: https://databricks-prod-cloudfront.clo
 
 **In the Databricks notebook, I use Spark SQL for big data analysis on SF crime data from 2003 to 2018/05/15.** 
 
-(https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry). 
-
 The current version is OLAP (Online Analytical Processing) for SF crime data analysis.  
 
 (--Possible plans in the future:
