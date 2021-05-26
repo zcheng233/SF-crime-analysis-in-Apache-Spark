@@ -11,7 +11,7 @@ The current version is OLAP (Online Analytical Processing) for SF crime data ana
 1. unsupervised learning for spatial data analysis.  
 2. time series data analysis.  )
 
-####1. Motivation
+#### 1. Motivation
 
 When considering about whether to reside in a certain place or not, one of the most important factors is to research on the safety and crime rate of the area. Most people would prefer a safer place to live, especially for a mid- or long-term residence, or someone plan to run their own business. 
 
@@ -20,7 +20,7 @@ For every new UC Berkeley student coming from other area, he/she must have heard
 I choose SF data because it is a world-famous metropolis with a population over 880K, and would also hopefully be the next place I were about to live.
 
 
-####2. Methods
+#### 2. Methods
 
 1) Data processing
 
@@ -40,7 +40,7 @@ On deciding to use Spark SQL instead of PySpark DataFrame method, I compared the
 How to select the best way for visualization makes a huge difference and is of great importance in conveying the insights from data analysis results.
   
   
-####3. Analysis and insights
+#### 3. Analysis and insights
 1. From the bar chart and line chart of count of crime in 2015-2018, I noticed a decreasing crime in 2018. From the charts of 15 years, I found an increasing trend of crime since 2011, but the first four months of 2018 so far has the lowest number of crime over the years.
 
 2. From the bar chart of hour vs count of crime of different categories, and line plot of hour vs count of crime in a certain day, I found that most of crimes occur during lunch or in the afternoon in 14-22pm, and early morning has the least amount of crime, especially in 3-7am. So it is suggested to travel in the morning and assign more police in the evening.
