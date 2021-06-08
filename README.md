@@ -2,8 +2,7 @@
 
 Please use the link to the databricks notebook:
 
-
-https://zcheng233.github.io/SF-crime-analysis-in-Apache-Spark/SF_crime%20data%20analysis.html
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5389513496392988/1632744863072986/3093881762394895/latest.html
 
 **In the Databricks notebook, I use Spark SQL for big data analysis on SF crime data from 2003 to 2018/05/15.** 
 
