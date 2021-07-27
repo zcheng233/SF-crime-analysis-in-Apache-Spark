@@ -1,4 +1,4 @@
-# SF-crime-analysis-in-Apache-Spark
+# SF crime analysis in Apache Spark
 
 In this notebook, I performed data and spatial analysis on a 15-year SFPD crime dataset of size over 551MB. The dataset I used is historical SFPD incident reports data from 2003 to 2018/05/15.
 
