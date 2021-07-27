@@ -6,3 +6,8 @@ In Part 1, I conducted big data OLAP (Online Analytical Processing) based on Spa
 
 In Part 2, I conducted spatial data analysis and built K-means and bisecting K-means clustering model to explore and visualize the variation of the spatial distribution of larcency/theft and robbery.
 
+A quick look at the clustering visualization:
+- Larceny/theft
+![theft](clustering_on_theft.png)
+- Robbery
+![robbery](clustering_on_robbery.png)
