@@ -1,6 +1,10 @@
 # SF crime analysis in Apache Spark
+This repository contains two notebooks:
+1. In the databricks notebook `SF_crime_data_analysis_clustering.ipynb`, I performed data and spatial analysis on a 15-year SFPD crime dataset of size over 551MB. The dataset I used is historical SFPD incident reports data from 2003 to 2018/05/15.  
 
-In this databricks notebook, I performed data and spatial analysis on a 15-year SFPD crime dataset of size over 551MB. The dataset I used is historical SFPD incident reports data from 2003 to 2018/05/15.
+2. In the Colab notebbok `theft_time_series_lstm_proj.ipynb`, I perform a time series prediction using a Recurrent Neural Network regressor. For this example, I will predict weekly theft crime rate in San Francisco 7 weeks in advance. The particular network architecture I will employ for my RNN is a  [Long Term Short Memory (LTSM)](https://en.wikipedia.org/wiki/Long_short-term_memory), which helps significantly avoid technical problems with optimization of RNNs.
+
+Below is the introduction of contents in the first notebook.
 
 ## Part 1 OLAP and Data Visualization
 In part 1, I conducted big data OLAP (Online Analytical Processing) based on Spark RDD, DataFrame, and Spark SQL. I compared variation in crime rates and resolution percentage of different categories across districts over time, conducted data visualiazation by seaborn, matplotlib, pyplot and Tableau, analyzed results and provided suggestions for the traveler, policymaker, and police arrangement.
@@ -27,3 +31,5 @@ A quick look at the visualization of clustering results:
 ![theft](images/clustering_on_theft.png)
 - Robbery
 ![robbery](images/clustering_on_robbery.png)
+
+
